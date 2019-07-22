@@ -1,0 +1,56 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+/* Шапка*/
+.jumbotron {
+  padding-top: 64px;
+  margin: 0;
+  
+  background-color: #E9ECEF;
+}
+
+.card {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 32px;
+}
+
+.card-text {
+  margin: 0;
+}
+
+.btn {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+@media screen and (min-width: 576px) {
+  .cards {
+    margin-top: 32px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .card {
+    margin-top: 32px;
+  }
+}
+
+.table {
+  margin-top: 32px;
+}
+
+.bl {
+  color: #007bff;
+}
+footer {
+  background-color: #F5F5F5;
+  color: #6c757d;
+  padding: 16px;
+  margin-top: 73px;
+
+  font-size: 16px;
+  line-height: 19px;
+}
